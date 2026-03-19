@@ -82,8 +82,12 @@ function App() {
           <div className="space-y-8">
             <div>
               <h3 className="text-lg mb-3">Music 🎵</h3>
-              <a href="https://bleedernyc.bandcamp.com/album/bleeder-ep" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-60 transition-opacity">
-                Bleeder EP
+              <ul className="space-y-2 pl-0">
+                <li>
+                  <a href="https://bleedernyc.bandcamp.com/album/bleeder-ep" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-60 transition-opacity">
+                    Bleeder EP
+                  </a>
+                </li>
                 <li>
                   <a href="https://www.gtalumni.org/news/2018/the-alternative-to-alternative-radio.html" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-60 transition-opacity">
                     The Alternative to Alternative Radio
