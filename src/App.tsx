@@ -30,7 +30,7 @@ function App() {
 
             <div>
               <p className="mb-3">Some of our recent ships 🚢:</p>
-              <ul className="space-y-2 pl-0">
+              <ul className="space-y-2 pl-6 list-disc">
                 <li>
                   <a href="https://github.blog/changelog/2026-03-11-explore-a-repository-using-copilot-on-the-web" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-60 transition-opacity">
                     Explore a repository using Copilot on the web
