@@ -1,4 +1,5 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
+import { GithubLogo, LinkedinLogo } from "@phosphor-icons/react"
 
 function App() {
   return (
@@ -154,12 +155,14 @@ function App() {
           
           <div className="space-y-3">
             <div>
-              <a href="https://github.com/sheenyg" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-60 transition-opacity">
+              <a href="https://github.com/sheenyg" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 underline hover:opacity-60 transition-opacity">
+                <GithubLogo />
                 GitHub
               </a>
             </div>
             <div>
-              <a href="https://www.linkedin.com/in/sheenaganju" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-60 transition-opacity">
+              <a href="https://www.linkedin.com/in/sheenaganju" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 underline hover:opacity-60 transition-opacity">
+                <LinkedinLogo />
                 LinkedIn
               </a>
             </div>
