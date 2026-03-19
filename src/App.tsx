@@ -1,5 +1,4 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
-import { GithubLogo, LinkedinLogo, EnvelopeSimple } from "@phosphor-icons/react"
 
 function App() {
   return (
@@ -10,7 +9,6 @@ function App() {
             <a href="#about" className="hover:opacity-60 transition-opacity">About</a>
             <a href="#projects" className="hover:opacity-60 transition-opacity">Projects</a>
             <a href="#passions" className="hover:opacity-60 transition-opacity">Passions</a>
-            <a href="#contact" className="hover:opacity-60 transition-opacity">Contact</a>
           </div>
         </div>
       </nav>
