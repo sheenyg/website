@@ -25,11 +25,11 @@ function App() {
           
           <div className="space-y-6">
             <p>
-              Currently running product for Copilot Chat on github.com (<a href="https://github.com/copilot" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-60 transition-opacity">github.com/copilot</a>)
+              I currently lead product for Copilot Chat on github.com (<a href="https://github.com/copilot" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-60 transition-opacity">github.com/copilot</a>)
             </p>
 
             <div>
-              <p className="mb-3">Some of our recent ships:</p>
+              <p className="mb-3">Some of our recent ships 🚢:</p>
               <ul className="space-y-2 pl-0">
                 <li>
                   <a href="https://github.blog/changelog/2026-03-11-explore-a-repository-using-copilot-on-the-web" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-60 transition-opacity">
@@ -81,14 +81,14 @@ function App() {
           
           <div className="space-y-8">
             <div>
-              <h3 className="text-lg mb-3">Music 🦋</h3>
+              <h3 className="text-lg mb-3">Music 🎵</h3>
               <a href="https://bleedernyc.bandcamp.com/album/bleeder-ep" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-60 transition-opacity">
                 Bleeder EP
               </a>
             </div>
 
             <div>
-              <h3 className="text-lg mb-3">Radio 🥘</h3>
+              <h3 className="text-lg mb-3">Radio 🎵</h3>
               <ul className="space-y-2 pl-0">
                 <li>
                   <a href="https://www.gtalumni.org/news/2018/the-alternative-to-alternative-radio.html" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-60 transition-opacity">
@@ -104,7 +104,7 @@ function App() {
             </div>
 
             <div>
-              <h3 className="text-lg mb-3">Books 🗻</h3>
+              <h3 className="text-lg mb-3">Books 📖</h3>
               <p className="mb-4">Top 5 Books I Read In...</p>
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem value="2026" className="border-t border-border">
@@ -147,43 +147,6 @@ function App() {
                 </AccordionItem>
               </Accordion>
             </div>
-          </div>
-        </section>
-
-        <section id="contact" className="mb-20">
-          <h2 className="text-2xl mb-8">Contact</h2>
-          
-          <div className="flex gap-6">
-            <a 
-              href="https://github.com/sheenyg" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 hover:opacity-60 transition-opacity"
-              aria-label="GitHub"
-            >
-              <GithubLogo size={24} weight="regular" />
-              <span>GitHub</span>
-            </a>
-            
-            <a 
-              href="https://www.linkedin.com/in/sheena-ganju" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 hover:opacity-60 transition-opacity"
-              aria-label="LinkedIn"
-            >
-              <LinkedinLogo size={24} weight="regular" />
-              <span>LinkedIn</span>
-            </a>
-            
-            <a 
-              href="mailto:sheena.ganju@example.com" 
-              className="flex items-center gap-2 hover:opacity-60 transition-opacity"
-              aria-label="Email"
-            >
-              <EnvelopeSimple size={24} weight="regular" />
-              <span>Email</span>
-            </a>
           </div>
         </section>
 
