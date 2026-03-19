@@ -9,6 +9,7 @@ function App() {
             <a href="#about" className="hover:opacity-60 transition-opacity">About</a>
             <a href="#projects" className="hover:opacity-60 transition-opacity">Projects</a>
             <a href="#passions" className="hover:opacity-60 transition-opacity">Passions</a>
+            <a href="#contact" className="hover:opacity-60 transition-opacity">Contact</a>
           </div>
         </div>
       </nav>
@@ -144,6 +145,23 @@ function App() {
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" className="mb-20">
+          <h2 className="text-2xl mb-8">Contact</h2>
+          
+          <div className="space-y-3">
+            <div>
+              <a href="https://github.com/sheenyg" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-60 transition-opacity">
+                GitHub
+              </a>
+            </div>
+            <div>
+              <a href="https://www.linkedin.com/in/sheenaganju" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-60 transition-opacity">
+                LinkedIn
+              </a>
             </div>
           </div>
         </section>
