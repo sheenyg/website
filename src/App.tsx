@@ -66,7 +66,8 @@ function App() {
         </section>
 
         <section id="projects" className="mb-20">
-          <h2 className="text-2xl mb-8">Projects 🌶</h2>
+          <h2 className="text-2xl mb-8">Projects
+          </h2>
           
           <div>
             <a href="https://sheenyg.github.io/wouldreads/" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-60 transition-opacity">
