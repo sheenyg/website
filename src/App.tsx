@@ -1,4 +1,5 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
+import { GithubLogo, LinkedinLogo, EnvelopeSimple } from "@phosphor-icons/react"
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
             <a href="#about" className="hover:opacity-60 transition-opacity">About</a>
             <a href="#projects" className="hover:opacity-60 transition-opacity">Projects</a>
             <a href="#passions" className="hover:opacity-60 transition-opacity">Passions</a>
+            <a href="#contact" className="hover:opacity-60 transition-opacity">Contact</a>
           </div>
         </div>
       </nav>
@@ -145,6 +147,43 @@ function App() {
                 </AccordionItem>
               </Accordion>
             </div>
+          </div>
+        </section>
+
+        <section id="contact" className="mb-20">
+          <h2 className="text-2xl mb-8">Contact</h2>
+          
+          <div className="flex gap-6">
+            <a 
+              href="https://github.com/sheenyg" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 hover:opacity-60 transition-opacity"
+              aria-label="GitHub"
+            >
+              <GithubLogo size={24} weight="regular" />
+              <span>GitHub</span>
+            </a>
+            
+            <a 
+              href="https://www.linkedin.com/in/sheena-ganju" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 hover:opacity-60 transition-opacity"
+              aria-label="LinkedIn"
+            >
+              <LinkedinLogo size={24} weight="regular" />
+              <span>LinkedIn</span>
+            </a>
+            
+            <a 
+              href="mailto:sheena.ganju@example.com" 
+              className="flex items-center gap-2 hover:opacity-60 transition-opacity"
+              aria-label="Email"
+            >
+              <EnvelopeSimple size={24} weight="regular" />
+              <span>Email</span>
+            </a>
           </div>
         </section>
 
