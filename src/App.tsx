@@ -19,9 +19,6 @@ function App() {
             <Button variant="link" asChild className="p-0 h-auto">
               <a href="#passions">Passions</a>
             </Button>
-            <Button variant="link" asChild className="p-0 h-auto">
-              <a href="#books">Books</a>
-            </Button>
           </div>
         </div>
       </nav>
@@ -113,7 +110,7 @@ function App() {
             <CardHeader>
               <CardTitle>Passions</CardTitle>
             </CardHeader>
-            <CardContent className="space-y-4">
+            <CardContent className="space-y-6">
               <div>
                 <h3 className="text-xl font-medium mb-2">Music</h3>
                 <a href="https://bleedernyc.bandcamp.com/album/bleeder-ep" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline inline-flex items-center gap-1">
@@ -139,59 +136,51 @@ function App() {
                   </li>
                 </ul>
               </div>
-            </CardContent>
-          </Card>
-        </section>
 
-        <Separator className="my-12" />
+              <div>
+                <h3 className="text-xl font-medium mb-3">Books</h3>
+                <p className="text-sm text-muted-foreground mb-3">Top 5 Books I Read In...</p>
+                <Accordion type="single" collapsible className="w-full">
+                  <AccordionItem value="2026">
+                    <AccordionTrigger>2026 (so far...)</AccordionTrigger>
+                    <AccordionContent>
+                      <ol className="space-y-1 list-decimal list-inside">
+                        <li>Stoner by John Williams</li>
+                        <li>Perfection by Vicenzo Latronico</li>
+                        <li>Hyperpolitics by Anton Jager</li>
+                        <li>The Perfect Nanny by Leila Slimani</li>
+                        <li>Withering Heights by Emily Bronte</li>
+                      </ol>
+                    </AccordionContent>
+                  </AccordionItem>
 
-        <section id="books" className="mb-16">
-          <Card>
-            <CardHeader>
-              <CardTitle>Books</CardTitle>
-              <CardDescription>Top 5 Books I Read In...</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <Accordion type="single" collapsible className="w-full">
-                <AccordionItem value="2026">
-                  <AccordionTrigger>2026 (so far...)</AccordionTrigger>
-                  <AccordionContent>
-                    <ol className="space-y-1 list-decimal list-inside">
-                      <li>Stoner by John Williams</li>
-                      <li>Perfection by Vicenzo Latronico</li>
-                      <li>Hyperpolitics by Anton Jager</li>
-                      <li>The Perfect Nanny by Leila Slimani</li>
-                      <li>Withering Heights by Emily Bronte</li>
-                    </ol>
-                  </AccordionContent>
-                </AccordionItem>
+                  <AccordionItem value="2025">
+                    <AccordionTrigger>2025</AccordionTrigger>
+                    <AccordionContent>
+                      <ol className="space-y-1 list-decimal list-inside">
+                        <li>The Secret History by Donna Tartt</li>
+                        <li>The Crying of Lot 49 by Thomas Pynchon</li>
+                        <li>Pedro Paramo by Juan Rulfo</li>
+                        <li>I Who Have Never Known Men by Jacqueline Harpman</li>
+                        <li>American Bulk by Emily Mester</li>
+                      </ol>
+                    </AccordionContent>
+                  </AccordionItem>
 
-                <AccordionItem value="2025">
-                  <AccordionTrigger>2025</AccordionTrigger>
-                  <AccordionContent>
-                    <ol className="space-y-1 list-decimal list-inside">
-                      <li>The Secret History by Donna Tartt</li>
-                      <li>The Crying of Lot 49 by Thomas Pynchon</li>
-                      <li>Pedro Paramo by Juan Rulfo</li>
-                      <li>I Who Have Never Known Men by Jacqueline Harpman</li>
-                      <li>American Bulk by Emily Mester</li>
-                    </ol>
-                  </AccordionContent>
-                </AccordionItem>
-
-                <AccordionItem value="2024">
-                  <AccordionTrigger>2024</AccordionTrigger>
-                  <AccordionContent>
-                    <ol className="space-y-1 list-decimal list-inside">
-                      <li>Anna Karenina by Tolstoy</li>
-                      <li>Rejection by Tony Tulathimutte</li>
-                      <li>Zen and the Art of Motorcycle Maintenance by Robert Pirsig</li>
-                      <li>Seeing is the act of forgetting the name of the thing one sees - Robert Irwin</li>
-                      <li>AI Superpowers- China, Silicon Valley, and the New World Order - Kai Fu Lee</li>
-                    </ol>
-                  </AccordionContent>
-                </AccordionItem>
-              </Accordion>
+                  <AccordionItem value="2024">
+                    <AccordionTrigger>2024</AccordionTrigger>
+                    <AccordionContent>
+                      <ol className="space-y-1 list-decimal list-inside">
+                        <li>Anna Karenina by Tolstoy</li>
+                        <li>Rejection by Tony Tulathimutte</li>
+                        <li>Zen and the Art of Motorcycle Maintenance by Robert Pirsig</li>
+                        <li>Seeing is the act of forgetting the name of the thing one sees - Robert Irwin</li>
+                        <li>AI Superpowers- China, Silicon Valley, and the New World Order - Kai Fu Lee</li>
+                      </ol>
+                    </AccordionContent>
+                  </AccordionItem>
+                </Accordion>
+              </div>
             </CardContent>
           </Card>
         </section>
