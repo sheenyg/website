@@ -17,9 +17,4 @@ export default defineConfig({
       '@': resolve(projectRoot, 'src')
     }
   },
-  build: {
-    rollupOptions: {
-      external: ['@github/spark/spark'],
-    },
-  },
 });
