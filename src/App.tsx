@@ -19,7 +19,7 @@ function App() {
 
       <main className="max-w-2xl mx-auto px-6 py-14 text-[15.5px] leading-7">
         <header id="about" className="mb-8 scroll-mt-28">
-          <h1 className="text-4xl mb-2 tracking-tight">Sheena Ganju</h1>
+          <h1 className="text-4xl mb-2 tracking-tight">Product manager based in New York City.</h1>
         </header>
 
         <section className="mb-10">
