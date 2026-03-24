@@ -13,10 +13,10 @@
   <script>
     (function () {
       try {
-        var stored = localStorage.getItem('theme');
+        var storedTheme = localStorage.getItem('theme');
         var isDark =
-          stored === 'dark' ||
-          ((!stored || stored === 'system') &&
+          storedTheme === 'dark' ||
+          ((!storedTheme || storedTheme === 'system') &&
             window.matchMedia('(prefers-color-scheme: dark)').matches);
         if (isDark) document.documentElement.classList.add('dark');
       } catch (e) {}

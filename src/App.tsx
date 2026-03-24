@@ -14,7 +14,7 @@ function App() {
             <a href="#projects" className="hover:opacity-60 transition-opacity">Projects</a>
             <a href="#passions" className="hover:opacity-60 transition-opacity">Passions</a>
             <a href="#contact" className="hover:opacity-60 transition-opacity">Contact</a>
-            <DarkModeToggle />
+            <span className="ml-auto"><DarkModeToggle /></span>
           </div>
         </div>
       </nav>

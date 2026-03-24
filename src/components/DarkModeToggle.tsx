@@ -21,7 +21,7 @@ export function DarkModeToggle() {
     <button
       onClick={() => setTheme(isDark ? 'light' : 'dark')}
       aria-label={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
-      className="ml-auto p-1.5 rounded-md hover:opacity-60 transition-opacity text-foreground"
+      className="p-1.5 rounded-md hover:opacity-60 transition-opacity text-foreground"
     >
       {isDark ? <SunIcon size={18} /> : <MoonIcon size={18} />}
     </button>
