@@ -20,14 +20,14 @@ function App() {
           <h1 className="text-4xl mb-2">Sheena Ganju</h1>
         </header>
 
-        <section className="mb-20">
+        <section className="mb-10">
           <div className="space-y-6">
             <p>
-              New York-based AI product manager. I currently lead product for Copilot Chat on github.com (<a href="https://github.com/copilot" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-60 transition-opacity">github.com/copilot</a>)
+              I'm a Product Manager based out of New York City. I currently lead product for Copilot Chat on github.com (<a href="https://github.com/copilot" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-60 transition-opacity">github.com/copilot</a>)
             </p>
 
             <div>
-              <p className="mb-3">Some of our recent ships 🚢:</p>
+              <p className="mb-3">Some of our recent work 🚢:</p>
               <ul className="space-y-2 pl-6 list-disc">
                 <li>
                   <a href="https://github.blog/changelog/2026-03-11-explore-a-repository-using-copilot-on-the-web" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-60 transition-opacity">
@@ -71,7 +71,7 @@ function App() {
             <a href="https://sheenyg.github.io/wouldreads/" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-60 transition-opacity">
               wouldreads
             </a>
-            <p className="mt-2">A news aggregator app that feeds articles from sites I visit frequently</p>
+            <p className="mt-2">A news aggregator app that gathers articles from sites I visit frequently. Check it out! </p>
           </div>
         </section>
 
@@ -102,17 +102,17 @@ function App() {
 
             <div>
               <h3 className="text-lg mb-3">Books 📖</h3>
-              <p className="mb-4">Top 5 Books I Read In...</p>
+              <p className="mb-4">My top 5 books of the last 3 years </p>
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem value="2026" className="border-t border-border">
                   <AccordionTrigger className="text-base hover:no-underline py-4">2026 (so far...)</AccordionTrigger>
                   <AccordionContent className="pb-4">
                     <ol className="space-y-1 list-decimal list-inside">
                       <li>Stoner by John Williams</li>
-                      <li>Perfection by Vicenzo Latronico</li>
                       <li>Hyperpolitics by Anton Jager</li>
                       <li>The Perfect Nanny by Leila Slimani</li>
-                      <li>Withering Heights by Emily Bronte</li>
+                      <li>Wuthering Heights by Emily Bronte</li>
+                      <li>Perfection by Vicenzo Latronico</li>
                     </ol>
                   </AccordionContent>
                 </AccordionItem>
@@ -137,8 +137,8 @@ function App() {
                       <li>Anna Karenina by Tolstoy</li>
                       <li>Rejection by Tony Tulathimutte</li>
                       <li>Zen and the Art of Motorcycle Maintenance by Robert Pirsig</li>
-                      <li>Seeing is the act of forgetting the name of the thing one sees - Robert Irwin</li>
-                      <li>AI Superpowers- China, Silicon Valley, and the New World Order - Kai Fu Lee</li>
+                      <li>Seeing is the act of forgetting the name of the thing one sees by Robert Irwin</li>
+                      <li>AI Superpowers - China, Silicon Valley, and the New World Order by Kai Fu Lee</li>
                     </ol>
                   </AccordionContent>
                 </AccordionItem>
@@ -148,7 +148,7 @@ function App() {
         </section>
 
         <section id="contact" className="mb-20">
-          <h2 className="text-2xl mb-8">Contact</h2>
+          <h2 className="text-2xl mb-8">Contact me</h2>
           
           <div className="space-y-3">
             <div>
