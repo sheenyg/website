@@ -1,5 +1,5 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
-import { GithubLogo, LinkedinLogo, books, headphones } from "@phosphor-icons/react"
+import { GithubLogo, LinkedinLogo, Books, Headphones } from "@phosphor-icons/react"
 import { DarkModeToggle } from "@/components/DarkModeToggle"
 
 const fancyLink = "no-underline bg-gradient-to-r from-foreground to-foreground bg-[length:0_1px] bg-no-repeat bg-left-bottom hover:bg-[length:100%_1px] transition-[background-size,opacity] opacity-90 hover:opacity-100"
