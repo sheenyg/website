@@ -1,5 +1,5 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
-import { GithubLogo, LinkedinLogo } from "@phosphor-icons/react"
+import { GithubLogo, LinkedinLogo, Books, Headphones, Boat } from "@phosphor-icons/react"
 import { DarkModeToggle } from "@/components/DarkModeToggle"
 
 const fancyLink = "no-underline bg-gradient-to-r from-foreground to-foreground bg-[length:0_1px] bg-no-repeat bg-left-bottom hover:bg-[length:100%_1px] transition-[background-size,opacity] opacity-90 hover:opacity-100"
@@ -31,7 +31,7 @@ function App() {
             </p>
 
             <div>
-              <p className="mb-3">Some of our recent work 🚢:</p>
+              <p className="mb-3"> <Boat /> Some of our recent work:</p>
               <ul className="space-y-2 pl-6 list-disc">
                 <li>
                   <a href="https://github.blog/changelog/2026-03-11-explore-a-repository-using-copilot-on-the-web" target="_blank" rel="noopener noreferrer" className={fancyLink}>
@@ -84,7 +84,7 @@ function App() {
           
           <div className="space-y-8">
             <div>
-              <h3 className="text-lg mb-3">Music 🎵</h3>
+              <h3 className="text-lg mb-3"> <Headphones /> Music </h3>
               <ul className="space-y-2 pl-6 list-disc">
                 <li>
                   <a href="https://bleedernyc.bandcamp.com/album/bleeder-ep" target="_blank" rel="noopener noreferrer" className={fancyLink}>
@@ -105,7 +105,7 @@ function App() {
             </div>
 
             <div>
-              <h3 className="text-lg mb-3">Books 📖</h3>
+              <h3 className="text-lg mb-3"> <Books /> Books</h3>
               <p className="mb-4">My top 5 books of the last 3 years </p>
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem value="2026" className="border-t border-border">
