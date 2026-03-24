@@ -16,16 +16,14 @@ function App() {
       </nav>
 
       <main className="max-w-2xl mx-auto px-6 py-16">
-        <header className="mb-20">
+        <header id="about" className="mb-20">
           <h1 className="text-4xl mb-2">Sheena Ganju</h1>
         </header>
 
-        <section id="about" className="mb-20">
-          <h2 className="text-2xl mb-8">About Me</h2>
-          
+        <section className="mb-20">
           <div className="space-y-6">
             <p>
-              I currently lead product for Copilot Chat on github.com (<a href="https://github.com/copilot" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-60 transition-opacity">github.com/copilot</a>)
+              New York-based AI product manager. I currently lead product for Copilot Chat on github.com (<a href="https://github.com/copilot" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-60 transition-opacity">github.com/copilot</a>)
             </p>
 
             <div>
@@ -83,7 +81,7 @@ function App() {
           <div className="space-y-8">
             <div>
               <h3 className="text-lg mb-3">Music 🎵</h3>
-              <ul className="space-y-2 pl-0">
+              <ul className="space-y-2 pl-6 list-disc">
                 <li>
                   <a href="https://bleedernyc.bandcamp.com/album/bleeder-ep" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-60 transition-opacity">
                     Bleeder EP
