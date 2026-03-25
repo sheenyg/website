@@ -1,6 +1,5 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import { GithubLogo, LinkedinLogo, Books, Headphones, Boat } from "@phosphor-icons/react"
-import { DarkModeToggle } from "@/components/DarkModeToggle"
 
 const fancyLink = "no-underline bg-gradient-to-r from-foreground to-foreground bg-[length:0_1px] bg-no-repeat bg-left-bottom hover:bg-[length:100%_1px] transition-[background-size,opacity] opacity-90 hover:opacity-100"
 
@@ -10,11 +9,10 @@ function App() {
       <nav className="sticky top-0 z-50 bg-background/70 backdrop-blur-md border-b border-border/60 shadow-sm shadow-black/5 dark:shadow-black/20">
         <div className="max-w-2xl mx-auto px-6 py-6">
           <div className="flex items-center gap-8 text-sm">
-            <a href="#about" className="hover:opacity-60 transition-opacity">About</a>
-            <a href="#projects" className="hover:opacity-60 transition-opacity">Projects</a>
-            <a href="#passions" className="hover:opacity-60 transition-opacity">Passions</a>
-            <a href="#contact" className="hover:opacity-60 transition-opacity">Contact</a>
-            <span className="ml-auto"><DarkModeToggle /></span>
+            <a href="#about" className="no-underline hover:opacity-60 transition-opacity">About</a>
+            <a href="#projects" className="no-underline hover:opacity-60 transition-opacity">Projects</a>
+            <a href="#passions" className="no-underline hover:opacity-60 transition-opacity">Passions</a>
+            <a href="#contact" className="no-underline hover:opacity-60 transition-opacity">Contact</a>
           </div>
         </div>
       </nav>
