@@ -82,3 +82,7 @@ html {
 a {
   text-decoration: underline;
 }
+
+.site-header a {
+  text-decoration: none;
+}
