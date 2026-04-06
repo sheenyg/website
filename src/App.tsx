@@ -5,7 +5,7 @@ const fancyLink = "no-underline bg-gradient-to-r from-foreground to-foreground b
 
 function App() {
   return (
-    <div className="min-h-screen bg-background bg-[radial-gradient(1200px_circle_at_20%_-10%,rgba(99,102,241,0.18),transparent_55%),radial-gradient(900px_circle_at_90%_0%,rgba(236,72,153,0.12),transparent_45%)]">
+    <div className="min-h-screen bg-background bg-[radial-gradient(1200px_circle_at_20%_-10%,rgba(164,172,200,0.18),transparent_55%),radial-gradient(900px_circle_at_90%_0%,rgba(164,172,200,0.12),transparent_45%)]">
       <nav className="site-header sticky top-0 z-50 bg-background/70 backdrop-blur-md border-b border-border/60 shadow-sm shadow-black/5 dark:shadow-black/20">
         <div className="max-w-2xl mx-auto px-6 py-6">
           <div className="flex items-center gap-8 text-sm">
@@ -19,7 +19,12 @@ function App() {
 
       <main className="max-w-2xl mx-auto px-6 py-14 text-[15.5px] leading-7">
         <header id="about" className="mb-8 scroll-mt-28">
-          <h1 className="text-4xl mb-2 tracking-tight">Sheena Ganju</h1>
+          <h1 className="text-4xl mb-4 tracking-tight">Sheena Ganju</h1>
+          <img
+            src="/profile.svg"
+            alt="Profile photo of Sheena Ganju"
+            className="w-24 h-24 rounded-full object-cover ring-2 ring-[#A4ACC8]/40"
+          />
         </header>
 
         <section className="mb-10">
