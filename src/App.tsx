@@ -21,7 +21,7 @@ function App() {
         <header id="about" className="mb-8 scroll-mt-28">
           <h1 className="text-4xl mb-4 tracking-tight">Sheena Ganju</h1>
           <img
-            src="/profile.svg"
+            src="/webprofilepic.jpg"
             alt="Profile photo of Sheena Ganju"
             className="w-24 h-24 rounded-full object-cover ring-2 ring-[#A4ACC8]/40"
           />
