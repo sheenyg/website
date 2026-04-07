@@ -30,7 +30,7 @@ function App() {
         <section className="mb-10">
           <div className="space-y-6">
             <p>
-              I'm a Product Manager based in New York City. Currently, I'm leading product for Copilot Chat on GitHub.com (<a href="https://github.com/copilot" target="_blank" rel="noopener noreferrer" className={fancyLink}> github.com/copilot</a>), an AI coding assistant used by millions of developers globally.
+              I'm a Product Manager based in New York City. Currently, I'm leading product for <a href="https://github.com/copilot" target="_blank" rel="noopener noreferrer" className={fancyLink}> Copilot Chat on GitHub.com </a>, an AI coding assistant used by millions of developers globally.
             </p>
 
             <div>
@@ -112,7 +112,7 @@ function App() {
               <p className="mb-4">My favorite books in...</p>
               <div className="space-y-6">
                 <div>
-                  <p className="font-medium mb-2">2026 (so far...)</p>
+                  <p className="font-medium mb-2">2026 (so far)</p>
                   <ul className="space-y-2 pl-6 list-disc">
                     <li>Stoner by John Williams</li>
                     <li>Hyperpolitics by Anton Jager</li>
