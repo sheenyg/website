@@ -27,10 +27,11 @@ function App() {
           />
         </header>
 
+
         <section className="mb-10">
           <div className="space-y-6">
             <p>
-              I'm a Product Manager based in New York City. I currently lead product for Copilot Chat on github.com (<a href="https://github.com/copilot" target="_blank" rel="noopener noreferrer" className={fancyLink}>github.com/copilot</a>)
+              I'm a Product Manager based in New York City. Currently, I'm leading product for Copilot Chat on GitHub.com (<a href="https://github.com/copilot" target="_blank" rel="noopener noreferrer" className={fancyLink}> github.com/copilot</a>), an AI coding assistant used by millions of developers globally.
             </p>
 
             <div>
