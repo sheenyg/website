@@ -30,9 +30,8 @@ function App() {
         <section className="mb-10">
           <div className="space-y-6">
             <p>
-              I'm a Product Manager based in New York City. Currently, I'm leading product for <a href="https://github.com/copilot" target="_blank" rel="noopener noreferrer" className={fancyLink}> Copilot Chat on GitHub.com </a>, an AI coding assistant used by millions of developers globally.
+             I'm a Product Manager based in New York City. Currently, I'm leading product for <a href="https://github.com/copilot" target="_blank" rel="noopener noreferrer" className={fancyLink}>Copilot Chat on GitHub.com</a>, an AI coding assistant used by millions of developers globally.
             </p>
-
             <div>
               <p className="mb-3 flex items-center gap-1"> Some of our recent work:</p>
               <ul className="space-y-2 pl-6 list-disc">
