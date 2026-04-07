@@ -1,5 +1,4 @@
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
-import { GithubLogo, LinkedinLogo, Books, Headphones, Boat } from "@phosphor-icons/react"
+import { GithubLogo, LinkedinLogo, Headphones, Boat } from "@phosphor-icons/react"
 
 const fancyLink = "no-underline bg-gradient-to-r from-foreground to-foreground bg-[length:0_1px] bg-no-repeat bg-left-bottom hover:bg-[length:100%_1px] transition-[background-size,opacity] opacity-90 hover:opacity-100"
 
@@ -31,9 +30,8 @@ function App() {
         <section className="mb-10">
           <div className="space-y-6">
             <p>
-              I'm a Product Manager based in New York City. Currently, I'm leading product for Copilot Chat on GitHub.com (<a href="https://github.com/copilot" target="_blank" rel="noopener noreferrer" className={fancyLink}> github.com/copilot</a>), an AI coding assistant used by millions of developers globally.
+             I'm a Product Manager based in New York City. Currently, I'm leading product for <a href="https://github.com/copilot" target="_blank" rel="noopener noreferrer" className={fancyLink}>Copilot Chat on GitHub.com</a>, an AI coding assistant used by millions of developers globally.
             </p>
-
             <div>
               <p className="mb-3 flex items-center gap-1"> Some of our recent work:</p>
               <ul className="space-y-2 pl-6 list-disc">
@@ -110,47 +108,39 @@ function App() {
 
             <div>
               <h3 className="text-lg mb-3 flex items-center gap-1"> Books</h3>
-              <p className="mb-4">My top 5 books of the last 3 years </p>
-              <Accordion type="single" collapsible className="w-full">
-                <AccordionItem value="2026" className="border-t border-border">
-                  <AccordionTrigger className="text-base hover:no-underline py-4">2026 (so far...)</AccordionTrigger>
-                  <AccordionContent className="pb-4">
-                    <ol className="space-y-1 list-decimal list-inside">
-                      <li>Stoner by John Williams</li>
-                      <li>Hyperpolitics by Anton Jager</li>
-                      <li>The Perfect Nanny by Leila Slimani</li>
-                      <li>Wuthering Heights by Emily Bronte</li>
-                      <li>Perfection by Vicenzo Latronico</li>
-                    </ol>
-                  </AccordionContent>
-                </AccordionItem>
-
-                <AccordionItem value="2025" className="border-t border-border">
-                  <AccordionTrigger className="text-base hover:no-underline py-4">2025</AccordionTrigger>
-                  <AccordionContent className="pb-4">
-                    <ol className="space-y-1 list-decimal list-inside">
-                      <li>The Secret History by Donna Tartt</li>
-                      <li>The Crying of Lot 49 by Thomas Pynchon</li>
-                      <li>Pedro Paramo by Juan Rulfo</li>
-                      <li>I Who Have Never Known Men by Jacqueline Harpman</li>
-                      <li>American Bulk by Emily Mester</li>
-                    </ol>
-                  </AccordionContent>
-                </AccordionItem>
-
-                <AccordionItem value="2024" className="border-t border-b border-border">
-                  <AccordionTrigger className="text-base hover:no-underline py-4">2024</AccordionTrigger>
-                  <AccordionContent className="pb-4">
-                    <ol className="space-y-1 list-decimal list-inside">
-                      <li>Anna Karenina by Tolstoy</li>
-                      <li>Rejection by Tony Tulathimutte</li>
-                      <li>Zen and the Art of Motorcycle Maintenance by Robert Pirsig</li>
-                      <li>Seeing is the act of forgetting the name of the thing one sees by Robert Irwin</li>
-                      <li>AI Superpowers - China, Silicon Valley, and the New World Order by Kai Fu Lee</li>
-                    </ol>
-                  </AccordionContent>
-                </AccordionItem>
-              </Accordion>
+              <p className="mb-4">My favorite books in...</p>
+              <div className="space-y-6">
+                <div>
+                  <p className="font-medium mb-2">2026 (so far)</p>
+                  <ul className="space-y-2 pl-6 list-disc">
+                    <li>Stoner by John Williams</li>
+                    <li>Hyperpolitics by Anton Jager</li>
+                    <li>The Perfect Nanny by Leila Slimani</li>
+                    <li>Wuthering Heights by Emily Bronte</li>
+                    <li>Perfection by Vicenzo Latronico</li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="font-medium mb-2">2025</p>
+                  <ul className="space-y-2 pl-6 list-disc">
+                    <li>The Secret History by Donna Tartt</li>
+                    <li>The Crying of Lot 49 by Thomas Pynchon</li>
+                    <li>Pedro Paramo by Juan Rulfo</li>
+                    <li>I Who Have Never Known Men by Jacqueline Harpman</li>
+                    <li>American Bulk by Emily Mester</li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="font-medium mb-2">2024</p>
+                  <ul className="space-y-2 pl-6 list-disc">
+                    <li>Anna Karenina by Tolstoy</li>
+                    <li>Rejection by Tony Tulathimutte</li>
+                    <li>Zen and the Art of Motorcycle Maintenance by Robert Pirsig</li>
+                    <li>Seeing is the act of forgetting the name of the thing one sees by Robert Irwin</li>
+                    <li>AI Superpowers - China, Silicon Valley, and the New World Order by Kai Fu Lee</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </section>
