@@ -114,10 +114,10 @@ function App() {
                   <p className="font-medium mb-2">2026 (so far)</p>
                   <ul className="space-y-2 pl-6 list-disc">
                     <li>Stoner by John Williams</li>
+                    <li>Vigil by George Saunders</li>
                     <li>Hyperpolitics by Anton Jager</li>
                     <li>The Perfect Nanny by Leila Slimani</li>
                     <li>Wuthering Heights by Emily Bronte</li>
-                    <li>Perfection by Vicenzo Latronico</li>
                   </ul>
                 </div>
                 <div>
