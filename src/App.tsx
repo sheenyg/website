@@ -36,6 +36,16 @@ function App() {
               <p className="mb-3 flex items-center gap-1"> Some of our recent work:</p>
               <ul className="space-y-2 pl-6 list-disc">
                 <li>
+                  <a href="https://github.blog/changelog/2026-04-23-copilot-chat-improvements-for-pull-requests/" target="_blank" rel="noopener noreferrer" className={fancyLink}>
+                    Copilot Chat improvements for pull requests
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.blog/changelog/2026-04-23-better-debugging-with-github-copilot-on-the-web/" target="_blank" rel="noopener noreferrer" className={fancyLink}>
+                    Better debugging with Copilot on the web
+                  </a>
+                </li>
+                <li>
                   <a href="https://github.blog/changelog/2026-03-11-explore-a-repository-using-copilot-on-the-web" target="_blank" rel="noopener noreferrer" className={fancyLink}>
                     Explore a repository using Copilot on the web
                   </a>
